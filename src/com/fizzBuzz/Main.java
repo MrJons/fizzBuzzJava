@@ -8,7 +8,7 @@ public class Main {
         }
     }
 
-    private static String fizzBuzz(int number){
+    public static String fizzBuzz(int number){
         if(number % 15 == 0){
             return "FizzBuzz";
         } else if(number % 5 == 0){

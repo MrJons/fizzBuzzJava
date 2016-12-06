@@ -10,10 +10,7 @@ import static org.junit.Assert.*;
  */
 public class MainTest {
 
-    @Before
-    public void setUp() throws Exception {
-        classUnderTest = new Main();
-    }
+    Main classUnderTest = new Main();
 
     @Test
     public void fizzBuzzTest(){
